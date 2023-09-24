@@ -1,0 +1,214 @@
+body{
+    font-family: "Roboto";
+    margin: 0;
+   
+}
+
+.head-wrap{
+    width: 1400px;
+    margin: auto;
+    background-color: #1F2937;
+}
+
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+
+.header-logo {
+    color: #f9faf8; font-size: 24px; font-weight: 800; display: flex;
+    align-items: center; 
+}
+
+.header-links {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    
+}
+
+li {
+    display: flex;
+    margin-right: 15px;
+}
+
+li:last-child{
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+:visited{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.heromain-wrap{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.heromain{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+
+.heroinfo{
+    color: #f9faf8; font-size: 48px; font-weight: 900; display: block;
+    align-items: center; width: 500px;
+}
+
+.herosubtext{
+    font-size: 18px; color: #E5E7EB;
+}
+
+button.signup{
+    background-color: #3882F6; border: none; border-radius: 10px;
+    height: 40px; width: 150px; font-family: "Roboto"; color: #f9faf8;
+    text-decoration: none; font-size: 18px; font-weight: 700;
+}
+
+.herophoto{
+    display: flex;
+}
+
+.someinfo-wrap{
+    display: block;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.infotitle{
+    font-size: 36px; font-weight: 900; color: #1F2937;
+    width: 500px; margin: auto; display: flex; align-items: center; justify-content: center;
+    padding-top: 40px;
+}
+
+.infophoto-container{
+    display: flex; padding-top: 40px; justify-content: center;
+}
+
+.infophoto{
+    display: block; padding: 0px 25px; 
+}
+
+.infophotopic{
+    border-radius: 10px; border-color: #3882F6; border-style: solid; width: 200px; height: 200px;
+}
+
+.infophoto-text{
+    width: 200px; display: flex; justify-content: center; text-align: center; padding-top: 10px;
+}
+
+.quote-wrap{
+    display: block;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+    background-color: #E5E7EB;
+    padding-bottom: 100px;
+    text-align: right;
+}
+
+.quote-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    width: 900px;
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.quote-name{
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    font-style: normal;
+    align-items: end;
+    padding-right: 50px;
+    
+}
+
+.calltoaction-wrap{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+.calltoaction-container{
+    background-color: #3882F6;
+    width: 1000px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.calltoaction-title{
+    color: #f9faf8; font-size: 24px; font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 0px;
+    align-items: flex-end;
+}
+
+.calltoaction-text{
+    font-size: 18px; color: #E5E7EB;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    width: 600px;
+    display: flex;
+}
+
+.calltoaction-button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #f9faf8;
+    height: 40px; width: 150px; font-family: "Roboto";
+    text-decoration: none; font-size: 18px; font-weight: 700;
+    color: #f9faf8;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+    color: #E5E7EB;
+    padding: 30px 0px;
+}
